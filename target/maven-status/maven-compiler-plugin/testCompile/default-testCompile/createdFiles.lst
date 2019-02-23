@@ -1,0 +1,4 @@
+com/tools/stock/test/unit/services/StockManagementTest.class
+com/tools/stock/test/unit/services/StockLockTest.class
+com/tools/stock/test/unit/AbstractUnitTest.class
+com/tools/stock/test/unit/config/ServicesConfig.class
