@@ -114,7 +114,8 @@ public class StockStatisticsManagementBean implements StockStatisticsManagement{
                                     .sum();
                             
                             //Add the product with it's total sold amount
-                            topSellingProducts.add(new TopSellingProduct(p.getId(), sumAmountSoldInPeriod));
+                            if(sumAmountSoldInPeriod > 0)
+                                topSellingProducts.add(new TopSellingProduct(p.getId(), sumAmountSoldInPeriod));
                         });
         
         //Sort topeSellingProducts, get highest 3, and return them.
