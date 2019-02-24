@@ -7,7 +7,6 @@ How to run:
    POST http://localhost:8080/updateStock
    GET  http://localhost:8080/statistics?time=
    
-####################################################
 Development Notes:
     * First I hope my understanding is correct so some sides of the tasks, I had some questions in my mind, but I had to make some assumptions on which I built
       my solution, you will find my assumptions explained in below sections.
